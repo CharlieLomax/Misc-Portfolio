@@ -7,7 +7,10 @@ Contains several examples of code I wrote for my Intro to Artificial Intelligenc
 Some code samples from the game I've been working on in my spare time, as well as a playable demo.
 
 ## Group 7 - HCI
-A Figma file of the wireframe my group designed in my Human-Computer Interaction course for the NC Parks and Recreation vehicle inventory management webpage
+A Figma file of the wireframe my group designed in my Human-Computer Interaction course for the NC Parks and Recreation vehicle inventory management webpage.
 
 ## Wordlist.c
-From a project in my C class to read a list of words from a file and store them
+From a project in my C class to read a list of words from a file and store them.
+
+
+Additional projects, which I am unable to share publicly for various reasons, are available on request.

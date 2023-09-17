@@ -12,5 +12,11 @@ A Figma file of the wireframe my group designed in my Human-Computer Interaction
 ## Wordlist.c
 From a project in my C class to read a list of words from a file and store them.
 
+## Build-a-Bot Sample
+This was a game project I worked on with a group in one of my classes. The project was for the nonprofit Katabasis.org, a non-profit with the goal of getting STEM educational resources to low-income children. This game was intended to get kids interested in PC-building. Most of my contribution to the project was the behavior of the player character, which is what I have included here, as well as a playable build of the game for Windows.
 
-Additional projects, which I am unable to share publicly for various reasons, are available on request.
+## HWE Senior Design Sample
+This was my senior design project, a website for the How We Evaluate Lab. This website is meant to host a course to teach students critical thinking, where responses are graded automatically using NLP. I worked exclusively on the backend; the `nlp.py` and `unit_test.py` files are my work, and I and one of the other members of the team collabporated on the `assignment.py` file.
+
+## Game Engine
+This is from one of my courses, in which we spent the entire semester building a basic 2D game engine. The engine has numerous features, including multi-threading, client-server communication, an event and replay system, and scripting. `Game 1` and `Game 2` contain mostly the same code; the point of the two being separate is to demonstrate that the engine code can be repurposed for different games. To run the engine, both `Game Engine Project.exe` and `Game Server.exe` must be run at the same time (these can be found in the `Release` subfolder in each game's folder).

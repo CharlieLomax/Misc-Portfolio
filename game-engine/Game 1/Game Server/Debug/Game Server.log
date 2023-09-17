@@ -1,0 +1,6 @@
+﻿  MovingCollision.cpp
+C:\Development\Game Engine Project\Game Engine Project\Game 1\Game Engine Project\MovingCollision.cpp(14,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Development\Game Engine Project\Game Engine Project\Game 1\Game Engine Project\MovingCollision.cpp(19,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Development\Game Engine Project\Game Engine Project\Game 1\Game Engine Project\MovingCollision.cpp(26,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Development\Game Engine Project\Game Engine Project\Game 1\Game Engine Project\MovingCollision.cpp(31,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Game Server.vcxproj -> C:\Development\Game Engine Project\Game Engine Project\Game 1\Debug\Game Server.exe

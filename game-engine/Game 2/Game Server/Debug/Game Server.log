@@ -1,0 +1,3 @@
+﻿  Mobile.cpp
+C:\Development\Game Engine Project\Game Engine Project\Game 2\Game Engine Project\Mobile.cpp(91,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Game Server.vcxproj -> C:\Development\Game Engine Project\Game Engine Project\Game 2\Debug\Game Server.exe

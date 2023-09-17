@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\duktape-2.6.0\src\duktape.c" />
+    <ClCompile Include="AgentMove.cpp" />
+    <ClCompile Include="AgentMoveEvent.cpp" />
+    <ClCompile Include="AgentMoveHandler.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Barrier.cpp" />
+    <ClCompile Include="BasicMove.cpp" />
+    <ClCompile Include="BounceCollision.cpp" />
+    <ClCompile Include="BoundaryCollision.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="CharacterCollision.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="CollisionEvent.cpp" />
+    <ClCompile Include="CollisionHandler.cpp" />
+    <ClCompile Include="ConnectEvent.cpp" />
+    <ClCompile Include="ConnectHandler.cpp" />
+    <ClCompile Include="DeathCollision.cpp" />
+    <ClCompile Include="DeathEvent.cpp" />
+    <ClCompile Include="DeathHandler.cpp" />
+    <ClCompile Include="DeathZone.cpp" />
+    <ClCompile Include="DisconnectEvent.cpp" />
+    <ClCompile Include="DisconnectHandler.cpp" />
+    <ClCompile Include="DrawEvent.cpp" />
+    <ClCompile Include="DrawHandler.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="EventHandler.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="HiddenObject.cpp" />
+    <ClCompile Include="InputEvent.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mobile.cpp" />
+    <ClCompile Include="MobileCollision.cpp" />
+    <ClCompile Include="Move.cpp" />
+    <ClCompile Include="MoveEvent.cpp" />
+    <ClCompile Include="MoveHandler.cpp" />
+    <ClCompile Include="MovingCollision.cpp" />
+    <ClCompile Include="OtherCharacter.cpp" />
+    <ClCompile Include="Paddle.cpp" />
+    <ClCompile Include="PlatformCollision.cpp" />
+    <ClCompile Include="PlatformMove.cpp" />
+    <ClCompile Include="RecordStartEvent.cpp" />
+    <ClCompile Include="RecordStartHandler.cpp" />
+    <ClCompile Include="RecordStopEvent.cpp" />
+    <ClCompile Include="RecordStopHandler.cpp" />
+    <ClCompile Include="RenderObject.cpp" />
+    <ClCompile Include="RenderRect.cpp" />
+    <ClCompile Include="RenderSprite.cpp" />
+    <ClCompile Include="ReplayViewer.cpp" />
+    <ClCompile Include="RepositionEvent.cpp" />
+    <ClCompile Include="RepositionHandler.cpp" />
+    <ClCompile Include="ScriptedEventHandler.cpp" />
+    <ClCompile Include="ScriptManager.cpp" />
+    <ClCompile Include="ScrollEvent.cpp" />
+    <ClCompile Include="ScrollHandler.cpp" />
+    <ClCompile Include="SelfDestructBlock.cpp" />
+    <ClCompile Include="SelfDestructCollision.cpp" />
+    <ClCompile Include="SideBoundary.cpp" />
+    <ClCompile Include="SpawnCollision.cpp" />
+    <ClCompile Include="SpawnEvent.cpp" />
+    <ClCompile Include="SpawnHandler.cpp" />
+    <ClCompile Include="SpawnPoint.cpp" />
+    <ClCompile Include="Timeline.cpp" />
+    <ClCompile Include="UntexturedMovingPlatform.cpp" />
+    <ClCompile Include="UntexturedPlatformProxy.cpp" />
+    <ClCompile Include="UntexturedPlatform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\duktape-2.6.0\src\duktape.h" />
+    <ClInclude Include="..\duktape-2.6.0\src\duk_config.h" />
+    <ClInclude Include="AgentMove.h" />
+    <ClInclude Include="AgentMoveEvent.h" />
+    <ClInclude Include="AgentMoveHandler.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Barrier.h" />
+    <ClInclude Include="BasicMove.h" />
+    <ClInclude Include="BounceCollision.h" />
+    <ClInclude Include="BoundaryCollision.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="CharacterCollision.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CollisionEvent.h" />
+    <ClInclude Include="CollisionHandler.h" />
+    <ClInclude Include="ConnectEvent.h" />
+    <ClInclude Include="ConnectHandler.h" />
+    <ClInclude Include="DeathCollision.h" />
+    <ClInclude Include="DeathEvent.h" />
+    <ClInclude Include="DeathHandler.h" />
+    <ClInclude Include="DeathZone.h" />
+    <ClInclude Include="DisconnectEvent.h" />
+    <ClInclude Include="DisconnectHandler.h" />
+    <ClInclude Include="DrawEvent.h" />
+    <ClInclude Include="DrawHandler.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventHandler.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="HiddenObject.h" />
+    <ClInclude Include="InputEvent.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="Mobile.h" />
+    <ClInclude Include="MobileCollision.h" />
+    <ClInclude Include="Move.h" />
+    <ClInclude Include="MoveEvent.h" />
+    <ClInclude Include="MoveHandler.h" />
+    <ClInclude Include="MovingCollision.h" />
+    <ClInclude Include="OtherCharacter.h" />
+    <ClInclude Include="Paddle.h" />
+    <ClInclude Include="PlatformCollision.h" />
+    <ClInclude Include="PlatformMove.h" />
+    <ClInclude Include="RecordStartEvent.h" />
+    <ClInclude Include="RecordStartHandler.h" />
+    <ClInclude Include="RecordStopEvent.h" />
+    <ClInclude Include="RecordStopHandler.h" />
+    <ClInclude Include="RenderObject.h" />
+    <ClInclude Include="RenderRect.h" />
+    <ClInclude Include="RenderSprite.h" />
+    <ClInclude Include="ReplayViewer.h" />
+    <ClInclude Include="RepositionEvent.h" />
+    <ClInclude Include="RepositionHandler.h" />
+    <ClInclude Include="ScriptedEventHandler.h" />
+    <ClInclude Include="ScriptManager.h" />
+    <ClInclude Include="ScrollEvent.h" />
+    <ClInclude Include="ScrollHandler.h" />
+    <ClInclude Include="SelfDestructBlock.h" />
+    <ClInclude Include="SelfDestructCollision.h" />
+    <ClInclude Include="SideBoundary.h" />
+    <ClInclude Include="SpawnCollision.h" />
+    <ClInclude Include="SpawnEvent.h" />
+    <ClInclude Include="SpawnHandler.h" />
+    <ClInclude Include="SpawnPoint.h" />
+    <ClInclude Include="Timeline.h" />
+    <ClInclude Include="UntexturedMovingPlatform.h" />
+    <ClInclude Include="UntexturedPlatformProxy.h" />
+    <ClInclude Include="UntexturedPlatform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scriptFile.js" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fd8b5a45-9b00-4ce4-bf83-ff8b1c3443b2}</ProjectGuid>
+    <RootNamespace>GameEngineProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/duktape-2.6.0/src;$(SolutionDir)/dukglue-master/include/;$(SolutionDir)\SFML-2.5.1\include;$(SolutionDir)\ZMQ Project\0ZMQ\libzmq-v141-4_3_4</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SFML-2.5.1\lib;$(SolutionDir)\ZMQ Project\0ZMQ\libzmq-v141-4_3_4</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libzmq-v141-mt-4_3_4.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-network-d.lib;sfml-audio-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/duktape-2.6.0/src;$(SolutionDir)/dukglue-master/include/;$(SolutionDir)\SFML-2.5.1\include;$(SolutionDir)\ZMQ Project\0ZMQ\libzmq-v141-4_3_4</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SFML-2.5.1\lib;$(SolutionDir)\ZMQ Project\0ZMQ\libzmq-v141-4_3_4</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libzmq-v141-mt-4_3_4.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-network.lib;sfml-audio.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

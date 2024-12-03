@@ -1,4 +1,4 @@
-# Public-Portfolio
+# Misc-Portfolio
  
 ## AI Samples
 Contains several examples of code I wrote for my Intro to Artificial Intelligence course. `AIPlayer.java` is from a group project, though that file was primarily my work. The full project was an extended version of tic-tac-toe, which had an AI player that could compete with a human player. `Robot.java` was an individual project I completed; the skeleton was provided by the teaching staff and all of the algorithms were implemented by me. The goal of this program was to help a robot navigate a simulated grid map in the most optimal way. `Futoshiki.java` is a program designed to solve a Futoshiki puzzle (a Japanese logic puzzle similar to Soduku).
